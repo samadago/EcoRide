@@ -1,0 +1,529 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+* {
+
+
+
+    align-items: center;
+    scroll-behavior: smooth;
+
+}
+
+.p {
+
+    font-weight: 300;
+    color: #751009;
+
+}
+
+.header {
+    position: fixed;
+
+    width: 100%;
+    z-index: 1;
+    display: flex;
+
+    transition: 0.5s;
+    color: hsl(40, 13%, 67%);
+    align-items: center;
+
+}
+
+.logo {
+
+    color: white;
+    font-weight: bold;
+    font-size: 3em;
+    text-decoration: none;
+
+    margin-left: 15px;
+}
+
+.logo span {
+    color: #081c15;
+
+
+}
+
+.navbar {
+    display: flex;
+    position: relative;
+    background-color:#2f9e44;
+    list-style-type: none;
+
+}
+
+.navbar a {
+    color: #ffff;
+    text-decoration: none;
+    margin-right: 60px;
+    font-weight: 700;
+
+
+
+
+}
+
+
+/* Présentation de entreprise */
+.presentation {
+    padding: 50px 0;
+    background-color:#d8f3dc; /* Blanc pour la section principale */
+}
+
+.presentation h1, .presentation p {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.presentation img {
+    max-width: 100%;
+    border-radius: 15px;
+
+}
+
+.presentation .col-md-6 p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #555;
+}
+
+/* Barre de recherche */
+.search-bar {
+    background-color: #f4f9f4; /* Vert clair */
+    padding: 40px 0;
+    text-align: center;
+}
+
+.search-bar .form-control {
+    border-radius: 25px;
+    border: 2px solid #2f9e44;
+}
+
+.search-bar .btn-success {
+    background-color: #2f9e44;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 25px;
+    font-weight: bold;
+}
+
+.search-bar .btn-success:hover {
+    background-color: #267c35;
+}
+
+/* Footer */
+.footer {
+    background-color:#84a98c;
+    text-align: center;
+    padding: 20px;
+    color: #555;
+}
+
+.footer a {
+    color:#1b4332;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+
+/* covoiturage */
+
+
+h2, h3, h4 {
+    font-weight: 700;
+    color: #333;
+}
+
+p {
+    font-weight: 400;
+    color: #555;
+}
+
+/* Section du formulaire de recherche */
+.search-form {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.search-form h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #28a745; /* Couleur verte pour la recherche */
+}
+
+.search-form .form-control {
+    border: 2px solid #ddd;
+    border-radius: 4px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.search-form .btn-success {
+    background-color: #28a745;
+    border: none;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.search-form .btn-success:hover {
+    background-color: #218838;
+}
+
+/* Trip Card - Carte de covoiturage */
+.trip-card {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+}
+
+.trip-card img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.trip-card strong {
+    font-weight: 600;
+}
+
+.trip-card .trip-ecological {
+    color: #28a745;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.trip-card .trip-non-ecological {
+    color: #dc3545;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+/* Boutons de détail */
+.trip-card .btn-outline-info {
+    border-color: #17a2b8;
+    color: #17a2b8;
+    font-weight: 600;
+}
+
+.trip-card .btn-outline-info:hover {
+    background-color: #17a2b8;
+    color: #fff;
+}
+
+/* Filtres de recherche */
+.filter-card {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+}
+
+.filter-card h4 {
+    font-size: 20px;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.filter-card .form-group label {
+    font-weight: 600;
+}
+
+.filter-card .form-control {
+    border: 2px solid #ddd;
+    border-radius: 4px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.filter-card .btn-success {
+    background-color: #28a745;
+    border: none;
+    font-weight: 600;
+    font-size: 16px;
+    margin-top: 15px;
+}
+
+.filter-card .btn-success:hover {
+    background-color: #218838;
+}
+
+/* Section des détails du covoiturage */
+#tripDetail h3 {
+    font-size: 24px;
+    font-weight: 700;
+    color: #333;
+}
+
+#tripDetail .trip-card {
+    padding: 20px;
+}
+
+#tripDetail img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+#tripDetail h4 {
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+#tripDetail p {
+    font-weight: 400;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+
+/*  contact  */
+
+
+h1, h2, h3 {
+    color: #2b7a0b; /* Vert écologique foncé */
+    font-weight: 700;
+}
+
+p, li {
+    color: #4d4d4d;
+    font-weight: 400;
+}
+
+mark {
+    background-color: #d4f4dd; /* Vert clair en surlignage */
+    color: #1a4314;
+}
+
+.wp-block-table td {
+    padding: 10px;
+    background-color: #f1f8f2; /* Arrière-plan des tableaux en vert pâle */
+}
+
+/* Formulaire de contact et détails de l'adresse */
+.address-main, .contact-form {
+    background-color: #fff;
+    border: 2px solid #e0efe0; /* Bordures vert clair */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+}
+
+.address-main h2, .contact-form h2 {
+    background-color: #2b7a0b;
+    color: #fff;
+    padding: 15px;
+    border-radius: 6px 6px 0 0;
+}
+
+.address-main:hover, .contact-form:hover {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.address-main li i, .contact-form .input-group-text {
+    color: #28a745;
+}
+
+.custom-btn {
+    background-color: #28a745; /* Vert primaire */
+    color: #fff;
+    font-weight: 600;
+    border: none;
+}
+
+.custom-btn:hover {
+    background-color: #218838; /* Vert plus foncé au survol */
+    color: #f8f9fa;
+}
+
+input, textarea, select {
+    border: 2px solid #d3e8d3;
+    border-radius: 4px;
+    padding: 10px;
+}
+
+input:focus, textarea:focus, select:focus {
+    border-color: #28a745;
+    outline: none;
+    box-shadow: 0 0 5px rgba(40, 167, 69, 0.5);
+}
+
+/* Modale */
+.modal-header, .modal-footer {
+    background-color: #2b7a0b;
+    color: white;
+}
+
+.modal-header .btn-close {
+    background-color: #fff;
+    border-radius: 50%;
+}
+
+.modal-body iframe {
+    border-radius: 8px;
+}
+
+/* Calendrier */
+.wp-block-heading {
+    color: #2b7a0b;
+    font-weight: bold;
+}
+
+.wp-block-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.wp-block-table th, .wp-block-table td {
+    border: 1px solid #2b7a0b;
+    padding: 10px;
+    text-align: center;
+}
+
+.wp-block-table th {
+    background-color: #a3d9a5;
+    color: #2b7a0b;
+}
+
+.wp-block-table td {
+    background-color: #f4f9f4;
+}
+
+/* Section du calendrier */
+.has-inline-color {
+    color: #2b7a0b;
+}
+
+.has-text-align-center {
+    text-align: center;
+}
+
+/* Section de la carte (iframe) */
+iframe {
+    border: none;
+    border-radius: 8px;
+}
+
+/* Boutons */
+.btn-custom {
+    background-color: #28a745;
+    color: #fff;
+    font-weight: 600;
+    border: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-custom:hover {
+    background-color: #218838;
+    color: #f8f9fa;
+
+
+    /* login form */
+
+    /* Style général pour le conteneur */
+    .container {
+        max-width: 400px;
+        margin: 50px auto;
+        padding: 30px;
+        background-color: #f4f9f4; /* Vert très pâle pour le fond */
+        border: 2px solid #a3d9a5; /* Bordure vert clair */
+        border-radius: 8px;
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); /* Ombre douce */
+        font-family: 'Arial', sans-serif;
+    }
+
+    /* Titre de la page de connexion */
+    .container h2 {
+        font-size: 2rem;
+        color: #2b7a0b; /* Vert écologique */
+        font-weight: 700;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    /* Message d'erreur */
+    .container p {
+        text-align: center;
+        font-size: 0.9rem;
+    }
+
+    /* Formulaire */
+    #loginForm {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    /* Label */
+    #loginForm label {
+        font-size: 1rem;
+        color: #333;
+        margin-bottom: 5px;
+    }
+
+    /* Champs de texte */
+    #loginForm input[type="text"],
+    #loginForm input[type="password"] {
+        width: 100%;
+        padding: 10px;
+        border: 2px solid #d3e8d3; /* Bordure verte légère */
+        border-radius: 6px;
+        background-color: #fff;
+        color: #333;
+        font-size: 1rem;
+    }
+
+    #loginForm input[type="text"]:focus,
+    #loginForm input[type="password"]:focus {
+        border-color: #28a745; /* Bordure verte foncée lors du focus */
+        box-shadow: 0 0 8px rgba(40, 167, 69, 0.3); /* Ombre verte lors du focus */
+        outline: none;
+    }
+
+    /* Bouton de connexion */
+    #loginForm button {
+        background-color: #28a745; /* Vert pour le bouton */
+        color: #fff;
+        padding: 12px;
+        border: none;
+        border-radius: 6px;
+        font-size: 1rem;
+        font-weight: 600;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+
+    #loginForm button:hover {
+        background-color: #218838; /* Vert plus foncé au survol */
+    }
+
+    /* Responsive */
+    @media (max-width: 768px) {
+        .container {
+            padding: 20px;
+        }
+
+        .container h2 {
+            font-size: 1.8rem;
+        }
+
+        #loginForm input[type="text"],
+        #loginForm input[type="password"],
+        #loginForm button {
+            padding: 10px;
+        }
+    }
+
+
+/* end login form */
