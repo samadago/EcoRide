@@ -4,9 +4,9 @@
 
 <!-- Formulaire de recherche d'itinéraires -->
 <section class="container search-form">
-    <h2 class="text-center my-4">Rechercher un itinéraire</h2>
+    <h2 class="text-center my-6">Rechercher un itinéraire</h2>
     <div class="row justify-content-center">
-        <div class="col-md-8">
+        <div class="col-md-6">
             <form action="#">
                 <div class="form-row">
                     <div class="form-group col-md-6">
@@ -75,6 +75,7 @@
         </div>
     </div>
 
+
     <!-- Si aucun covoiturage n'est disponible -->
     <div class="trip-card">
         <p>Aucun covoiturage disponible pour cette date. Veuillez modifier votre recherche.</p>
@@ -99,6 +100,16 @@
                         </select>
                     </div>
 
+                    <div class="container-lg border">
+                        <div class="row">
+                            <div class="col-md-6 float-left">
+                                <p>Wider Column</p>
+                            </div>
+                            <div class="col-md-6 float-right">
+                                <p>Narrower Column</p>
+                            </div>
+                        </div>
+                    </div>
                     <!-- Filtre Prix maximum -->
                     <div class="form-group">
                         <label for="maxPriceFilter">Prix maximum (€)</label>
@@ -126,6 +137,8 @@
                 </form>
             </div>
         </div>
+
+
 
         <div class="col-md-8">
             <!-- Liste des covoiturages filtrés -->
@@ -160,10 +173,10 @@
     <div class="trip-card">
         <div class="row">
             <div class="col-md-4">
-                <img src="https://via.placeholder.com/150" class="img-fluid rounded" alt="Photo du véhicule">
+                <img src="assets/img_ecolo/benz.jpg" class="img-fluid rounded" alt="Photo du véhicule">
             </div>
             <div class="col-md-8">
-                <h4>Conducteur : Pseudo</h4>
+                <h4>Conducteur : Luc</h4>
                 <p><strong>Modèle de voiture :</strong> Tesla Model 3</p>
                 <p><strong>Type de véhicule :</strong> Électrique</p>
                 <p><strong>Préférences du conducteur :</strong> Non-fumeur, Pas d'animaux</p>

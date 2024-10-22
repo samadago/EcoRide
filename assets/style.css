@@ -504,26 +504,9 @@ iframe {
         transition: background-color 0.3s ease;
     }
 
-    #loginForm button:hover {
-        background-color: #218838; /* Vert plus foncé au survol */
-    }
 
-    /* Responsive */
-    @media (max-width: 768px) {
-        .container {
-            padding: 20px;
-        }
 
-        .container h2 {
-            font-size: 1.8rem;
-        }
 
-        #loginForm input[type="text"],
-        #loginForm input[type="password"],
-        #loginForm button {
-            padding: 10px;
-        }
-    }
 
 
 /* end login form */
