@@ -1,7 +1,5 @@
 <?php require_once('templates/header.php'); ?>
 
-
-
 <!-- Formulaire de recherche d'itinéraires -->
 <section class="container search-form">
     <h2 class="text-center my-6">Rechercher un itinéraire</h2>
@@ -133,7 +131,8 @@
                         </select>
                     </div>
 
-                    <button type="button" class="btn btn-success btn-block" onclick="applyFilters()">Appliquer les filtres</button>
+                    <button type="button" class="btn btn-success btn-block" onclick="applyFilters()">Appliquer les
+                        filtres</button>
                 </form>
             </div>
         </div>
@@ -146,7 +145,8 @@
                 <div class="trip-card">
                     <div class="row">
                         <div class="col-md-3 text-center">
-                            <img src="assets/img_ecolo/chauffeur%20co2.jpg" class="rounded-circle" alt="Photo du chauffeur">
+                            <img src="assets/img_ecolo/chauffeur%20co2.jpg" class="rounded-circle"
+                                alt="Photo du chauffeur">
                             <p><strong>Pseudo</strong></p>
                             <p>Note: ★★★★☆</p>
                         </div>

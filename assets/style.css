@@ -61,8 +61,6 @@
     font-weight: 700;
 
 
-
-
 }
 
 
@@ -112,6 +110,9 @@
 .search-bar .btn-success:hover {
     background-color: #267c35;
 }
+
+
+    
 
 /* Footer */
 .footer {
@@ -428,6 +429,7 @@ iframe {
     background-color: #218838;
     color: #f8f9fa;
 
+}
 
     /* login form */
 
