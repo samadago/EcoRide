@@ -10,10 +10,10 @@
     <!-- Section principale -->
     <section class="row align-items-center">
         <div class="col-md-6">
-            <img src="assets/img_ecolo/trajets_partages.jpg" class="img-fluid rounded" alt="Personnes partageant une voiture électrique">
+            <img src="assets/img_ecolo/copartage.jpg" class="img-fluid rounded" alt="Personnes partageant une voiture électrique">
         </div>
         <div class="col-md-6">
-            <h2 class="h3">Pourquoi choisir le covoiturage électrique ?</h2>
+            <h2 class="h3">Pourquoi choisir le covoiturage ?</h2>
             <p>Le covoiturage électrique permet de réduire considérablement les émissions de CO2 en regroupant plusieurs passagers dans une même voiture. Cela réduit le nombre de véhicules sur la route et diminue la pollution atmosphérique.</p>
             <ul>
                 <li>Réduction des coûts pour les passagers et conducteurs.</li>
@@ -29,19 +29,19 @@
         <p class="text-center">Chaque trajet partagé contribue à un avenir plus propre :</p>
         <div class="row text-center">
             <div class="col-lg-4">
-                <img src="assets/img_ecolo/emissions_reduites.jpg" class="img-fluid rounded-circle mb-3" alt="Réduction des émissions">
-                <h3 class="h5">Réduction des émissions</h3>
-                <p>Moins de véhicules, moins de CO2 rejeté dans l'atmosphère.</p>
+
+                <h3 class="h5"> Profiter de trajets conviviaux </h3>
+                <p> </p>Le covoiturage crée un lien social. Partager une voiture avec des inconnus est l’occasion d’échanger avec de nouvelles personnes.
             </div>
             <div class="col-lg-4">
-                <img src="assets/img_ecolo/energie_verte.jpg" class="img-fluid rounded-circle mb-3" alt="Énergie propre">
-                <h3 class="h5">Utilisation d'énergie propre</h3>
-                <p>Nos véhicules fonctionnent avec des batteries électriques alimentées par des sources renouvelables.</p>
+
+                <h3 class="h5">Se déplacer avec flexibilité</h3>
+                <p> Le covoiturage offre la possibilité de partir au dernier moment à moindre coût. C’est aussi une solution pratique pour se déplacer pour les personnes qui n’ont pas le permis de conduire. .</p>
             </div>
             <div class="col-lg-4">
-                <img src="assets/img_ecolo/communite_verte.jpg" class="img-fluid rounded-circle mb-3" alt="Communauté écologique">
-                <h3 class="h5">Communauté écologique</h3>
-                <p>Ensemble, nous bâtissons un réseau pour un futur durable.</p>
+
+                <h3 class="h5"> Désencombrer les routes </h3>
+                <p>Ensemble, nous bâtissons un réseau pour un futur durablevous participez à désencombrer les routes et les parkings des villes, notamment aux heures de pointe si vous effectuez du covoiturage entre collègues.</p>
             </div>
         </div>
     </section>

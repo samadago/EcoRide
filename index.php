@@ -81,8 +81,7 @@
                     height="140" alt="Communauté écologique">
                 <h2 class="fw-normal">Communauté verte</h2>
                 <p>Rejoignez une communauté de voyageurs engagés dans la lutte contre le réchauffement climatique.</p>
-                <p>Découvrez notre flotte de véhicules électriques modernes, pour un transport plus propre et
-                    respectueux de l'environnement</p>
+
                 <p><a class="btn btn-secondary" href="signupForm.php">Rejoignez-nous »</a></p>
             </div>
         </div>
@@ -132,7 +131,7 @@
                     compte pour un avenir plus sain.</p>
             </div>
             <div class="col-md-5">
-                <img src="assets/img_ecolo/co2.jpg" class="featurette-image img rounded circle" width="500" height="500"
+                <img src="assets/img_ecolo/covo.jpg" class="featurette-image img rounded circle" width="500" height="500"
                     alt="Réduction des émissions de carbone">
             </div>
         </div>

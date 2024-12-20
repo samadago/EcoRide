@@ -63,6 +63,26 @@
 
 }
 
+    
+
+        .navbar-brand,
+        .navbar-nav .nav-link:hover {
+            color: #E8F5E9 !important;
+        }
+
+        .form-control-custom {
+            background-color: #E8F5E9;
+            border-radius: 25px;
+            color: #388E3C;
+            border: none;
+            padding-left: 15px;
+        }
+
+        .form-control-custom::placeholder {
+            color: #66BB6A;
+        }
+    
+
 
 /* Présentation de entreprise */
 .presentation {

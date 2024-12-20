@@ -1,14 +1,3 @@
-<!DOCTYPE html>
-<html lang="fr">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Découvrez nos véhicules électriques alimentés par des batteries écologiques pour un transport propre et respectueux de l'environnement.">
-    <title>Énergie Propre - Nos Véhicules</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-</head>
-
 <body>
     <?php require_once('templates/header.php'); ?>
 
@@ -22,7 +11,7 @@
         <!-- Section principale -->
         <section class="row align-items-center">
             <div class="col-md-6">
-                <img src="assets/img_ecolo/electrique.jpg" class="img-fluid rounded shadow" alt="Voiture électrique écologique">
+                <img src="assets/img_ecolo/tesla.jpg" class="img-fluid rounded shadow" alt="Voiture électrique écologique">
             </div>
             <div class="col-md-6">
                 <h2 class="h3">Un avenir plus propre grâce à nos véhicules électriques</h2>
@@ -65,7 +54,6 @@
             </div>
         </section>
     </main>
-
     <?php require_once('templates/footer.php'); ?>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>

@@ -5,38 +5,15 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="assets/style.css">
+
     <link rel="icon" type="image/x-icon" href="assets/img_ecolo/logo_eco.png" />
-    <title>Covoiturage Écologique</title>
+    <title>Covoiturage écologique
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">ologique
+    </title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
 
-    <style>
-    .navbar-light {
-        background-color: #4CAF50;
-    }
 
-    .navbar-nav .nav-link {
-        color: white !important;
-    }
-
-    .navbar-brand,
-    .navbar-nav .nav-link:hover {
-        color: #E8F5E9 !important;
-    }
-
-    .form-control-custom {
-        background-color: #E8F5E9;
-        border-radius: 25px;
-        color: #388E3C;
-        border: none;
-        padding-left: 15px;
-    }
-
-    .form-control-custom::placeholder {
-        color: #66BB6A;
-    }
-    </style>
-</head>
 
 <body>
     <header>
