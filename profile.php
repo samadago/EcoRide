@@ -35,10 +35,10 @@ require_once('templates/header.php');
                 <p class="card-text"><strong>Date de naissance:</strong>
                     <?php echo htmlspecialchars($user['date_naissance']); ?></p>
                 <?php if ($user['photo']): ?>
-                <div class="text-center">
-                    <img src="data:image/jpeg;base64,<?php echo base64_encode($user['photo']); ?>" class="img-thumbnail"
-                        alt="Photo de profil">
-                </div>
+                    <div class="text-center">
+                        <img src="data:image/jpeg;base64,<?php echo base64_encode($user['photo']); ?>" class="img-thumbnail"
+                            alt="Photo de profil">
+                    </div>
                 <?php endif; ?>
             </div>
             <div class="card-footer text-center">

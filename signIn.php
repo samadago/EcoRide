@@ -9,7 +9,7 @@ $error = isset($_GET['error']) ? $_GET['error'] : '';
     <div class="form-signin w-100 m-auto" style="max-width: 400px;">
         <form method="POST" action="handleSignIn.php">
             <div class="text-center">
-                <img class="mb-4" src="assets/img_ecolo/tablette.jpg" alt="" width="800" height="200">
+                <img class="mb-4 img-fluid rounded" src="assets/img_ecolo/tablette.jpg" alt="Image de tablette" style="max-width: 100%; height: auto;">
                 <h1 class="h3 mb-3 fw-normal">Connectez-vous</h1>
             </div>
 
@@ -32,7 +32,7 @@ $error = isset($_GET['error']) ? $_GET['error'] : '';
 
         <!-- Lien vers la page d'inscription -->
         <div class="text-center mt-4">
-            <p>Pas encore de compte ? <a href="signupForm.php">Inscrivez-vous ici</a></p>
+            <p>Pas encore de compte ? <a href="handleSignup.php">Inscrivez-vous ici</a></p>
         </div>
     </div>
 </main>

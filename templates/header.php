@@ -8,7 +8,7 @@
 
     <link rel="icon" type="image/x-icon" href="assets/img_ecolo/logo_eco.png" />
     <title>Covoiturage écologique
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">ologique
+
     </title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
@@ -37,7 +37,7 @@
 
                         <form class="d-flex mx-auto" action="recherche.php" method="GET" style="width: 300px;">
                             <input class="form-control form-control-custom" type="search" name="query"
-                                placeholder="Rechercher" aria-label="Rechercher">
+                                placeholder="Rechercher" aria-label="Rechercher le trajet">
                         </form>
 
                         <ul class="navbar-nav ms-3 mb-2 mb-lg-0">

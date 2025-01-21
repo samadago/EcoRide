@@ -17,20 +17,20 @@
                     <article class="col-md-5 address-main rounded p-4 m-4">
                         <h2 class="p-3">EcoRide</h2>
                         <ul class="p-3 list-unstyled mt-3">
-                            <li> Rue Abel</li>
-                            <li>75012 PARIS</li>
-                            <li class="mt-4">
-                                <i class="fa-solid fa-mobile-screen-button fa-lg" style="color: #efeaea;"></i>
-                                <span>014598765</span>
-                            </li>
-                            <li>
-                                <i class="fa-solid fa-envelope" style="color: hsl(0, 15%, 95%);"></i>
-                                <span>contact@covoiturage-ecologique.com</span>
-                            </li>
-                            <li class="mt-5">
-                                <button type="button" class="btn custom-btn w-100" data-bs-toggle="modal"
-                                    data-bs-target="#exampleModal">Voir sur la carte</button>
-                            </li>
+                            <li8>8 rue Sarah Bernhardt</li>
+                                <li>92600 Asnières-sur-Seine</li>
+                                <li class="mt-4">
+                                    <i class="fa-solid fa-mobile-screen-button fa-lg" style="color: #efeaea;"></i>
+                                    <span>01459876503</span>
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-envelope" style="color: hsl(0, 15%, 95%);"></i>
+                                    <span>contact@covoiturage-ecologique.com</span>
+                                </li>
+                                <li class="mt-5">
+                                    <button type="button" class="btn custom-btn w-100" data-bs-toggle="modal"
+                                        data-bs-target="#exampleModal">Voir sur la carte</button>
+                                </li>
                         </ul>
                     </article>
 
@@ -79,12 +79,7 @@
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body d-flex justify-content-center">
-
-
-                    <iframe
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3369.271192415687!2d1.6799388776633897!3d47.002222364586075!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47fb125221cd1419%3A0x94370e49310b3869!2s1%20Rte%20de%20Boug%C3%A8s%20le%20Ch%C3%A2teau%2C%2036110%20Bretagne!5e0!3m2!1sen!2sfr!4v1721144130279!5m2!1sen!2sfr"
-                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d5243.830239269306!2d2.3163475!3d48.9170094!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sfr!2sfr!4v1734803428359!5m2!1sfr!2sfr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
 
                 </div>

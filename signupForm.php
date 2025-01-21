@@ -1,5 +1,3 @@
-<?php require_once('templates/header.php'); ?>
-
 <main class="d-flex justify-content-center align-items-center vh-100">
     <div class="form-signin w-100 m-auto" style="max-width: 400px;">
         <h2 class="card-title text-center mb-4">Inscription</h2>

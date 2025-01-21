@@ -1,11 +1,13 @@
 <?php require_once('templates/header.php'); ?>
 
+
 <!-- Formulaire de recherche d'itinéraires -->
+
 <section class="container search-form">
-    <h2 class="text-center my-6">Rechercher un itinéraire</h2>
+    <h2 class="text-center my-6">Rechercher un trajet</h2>
     <div class="row justify-content-center">
         <div class="col-md-6">
-            <form action="#">
+            <form method="GET">
                 <div class="form-row">
                     <div class="form-group col-md-6">
                         <input type="text" class="form-control" placeholder="Ville de départ" required>
@@ -20,8 +22,11 @@
                     </div>
                     <div class="form-group col-md-6">
                         <button type="submit" class="btn btn-success btn-block">Rechercher</button>
+
+
+
+
                     </div>
-                </div>
             </form>
         </div>
     </div>
@@ -36,7 +41,7 @@
         <div class="row">
             <div class="col-md-2 text-center">
                 <img src="assets/img_ecolo/chauffeur_fille.jpg" class="rounded-circle" alt="Photo du chauffeur">
-                <p><strong>Pseudo</strong></p>
+                <p><strong>Liliane</strong></p>
                 <p>Note: ★★★★☆</p>
             </div>
             <div class="col-md-7">
@@ -57,7 +62,7 @@
         <div class="row">
             <div class="col-md-2 text-center">
                 <img src="assets/img_ecolo/chauffeur-boy.jpg" class="rounded-circle" alt="Photo du chauffeur">
-                <p><strong>Pseudo</strong></p>
+                <p><strong>David</strong></p>
                 <p>Note: ★★★★☆</p>
             </div>
             <div class="col-md-7">
@@ -73,6 +78,7 @@
         </div>
     </div>
 
+   
 
     <!-- Si aucun covoiturage n'est disponible -->
     <div class="trip-card">
@@ -98,20 +104,12 @@
                         </select>
                     </div>
 
-                    <div class="container-lg border">
-                        <div class="row">
-                            <div class="col-md-6 float-left">
-                                <p>Wider Column</p>
-                            </div>
-                            <div class="col-md-6 float-right">
-                                <p>Narrower Column</p>
-                            </div>
-                        </div>
-                    </div>
+
+
                     <!-- Filtre Prix maximum -->
                     <div class="form-group">
-                        <label for="maxPriceFilter">Prix maximum (€)</label>
-                        <input type="number" class="form-control" id="maxPriceFilter" placeholder="Prix max">
+                        <label for="maxPriceCar">Prix maximum (€)</label>
+                        <input type="number" class="form-control" id="maxPriceFiltr" placeholder="Prix max">
                     </div>
 
                     <!-- Filtre Durée maximum -->
@@ -147,7 +145,7 @@
                         <div class="col-md-3 text-center">
                             <img src="assets/img_ecolo/chauffeur%20co2.jpg" class="rounded-circle"
                                 alt="Photo du chauffeur">
-                            <p><strong>Pseudo</strong></p>
+                            <p><strong>Marc</strong></p>
                             <p>Note: ★★★★☆</p>
                         </div>
                         <div class="col-md-6">
@@ -187,4 +185,6 @@
         </div>
     </div>
 </section>
+
+
 <?php require_once('templates/footer.php'); ?>

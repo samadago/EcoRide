@@ -50,7 +50,7 @@
     <section class="text-center mt-5">
         <h2 class="h3">Rejoignez notre mouvement</h2>
         <p>Faites partie de la solution en optant pour le covoiturage électrique. Ensemble, nous créons un avenir plus propre et plus responsable.</p>
-        <a href="inscription.php" class="btn btn-primary btn-lg">Inscrivez-vous dès maintenant</a>
+        <a href="handleSignup.php" class="btn btn-success btn-lg">Inscrivez-vous dès maintenant</a>
     </section>
 </main>
 
