@@ -8,7 +8,6 @@ $password = 'yes';
 try {
     $pdo = new PDO("mysql:host=$host;dbname=covoiturage;charset=utf8", $username, $password);
     $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-    //echo 'connexion a la base de données reussi';
 } catch (PDOException $e) {
     die("Erreur de connexion à la base de données : " . $e->getMessage());
 }
@@ -68,13 +67,14 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         echo "Erreur lors de l'inscription : " . $e->getMessage();
     }
 }
-
 ?>
+
+<?php require_once('templates/header.php'); ?>
 
 <main class="d-flex justify-content-center align-items-center vh-100">
     <div class="form-signin w-100 m-auto" style="max-width: 400px;">
         <h2 class="card-title text-center mb-4">Inscription</h2>
-        <form action="handleSignup.php" method="post" enctype="multipart/form-data">
+        <form action="inscription.php" method="post" enctype="multipart/form-data">
             <div class="mb-3">
                 <label for="nom" class="form-label">Nom :</label>
                 <input type="text" name="nom" id="nom" class="form-control" required>

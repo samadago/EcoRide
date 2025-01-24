@@ -26,7 +26,8 @@
             <div class="row mt-4 g-4">
                 <div class="col-lg-4">
                     <div class="card h-100 shadow-sm">
-                        <img src="assets/img_ecolo/low-emission.png" class="card-img-top" alt="Zero émissions">
+                        <i class="material-icons" style="font-size:60px;color:lightblue;">cloud</i>
+
                         <div class="card-body">
                             <h5 class="card-title">Zéro Émission</h5>
                             <p class="card-text">Réduisez votre empreinte carbone en optant pour des trajets 100% électriques.</p>
@@ -35,7 +36,8 @@
                 </div>
                 <div class="col-lg-4">
                     <div class="card h-100 shadow-sm">
-                        <img src="assets/img_ecolo/save.png" class="card-img-top" alt="Économie d'énergie">
+                        <i class="material-icons" style="font-size:60px;color:gold;">
+                            money</i>
                         <div class="card-body">
                             <h5 class="card-title">Économies</h5>
                             <p class="card-text">Profitez d'un coût réduit par trajet grâce à nos véhicules électriques économiques.</p>
@@ -44,7 +46,9 @@
                 </div>
                 <div class="col-lg-4">
                     <div class="card h-100 shadow-sm">
-                        <img src="assets/img_ecolo/save-the-planet.png" wigth=30px; heigth=30px; class="card-img-top" alt="Avenir vert">
+                        <i class="material-icons" < class="material-icons" style="font-size:60px;color:green;">
+                            planet</i>
+
                         <div class="card-body">
                             <h5 class="card-title">Avenir Durable</h5>
                             <p class="card-text">Participez à la construction d'un avenir plus vert pour les générations futures.</p>
