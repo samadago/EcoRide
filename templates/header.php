@@ -33,16 +33,13 @@
                             <li class="nav-item"><a href="index.php" class="nav-link">Accueil</a></li>
                             <li class="nav-item"><a href="covoiturage.php" class="nav-link">Covoiturage</a></li>
                             <li class="nav-item"><a href="contact.php" class="nav-link">Contact</a></li>
-                        </ul>
-
-                        <form class="d-flex mx-auto" action="recherche.php" method="GET" style="width: 300px;">
-                            <input class="form-control form-control-custom" type="search" name="query"
-                                placeholder="Rechercher" aria-label="Rechercher le trajet">
-                        </form>
-
-                        <ul class="navbar-nav ms-3 mb-2 mb-lg-0">
                             <li class="nav-item"><a href="signIn.php" class="nav-link">Connexion</a></li>
+
                         </ul>
+
+
+
+
                     </div>
 
             </div>

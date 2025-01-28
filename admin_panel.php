@@ -1,34 +1,80 @@
-<div class="container">
-    <div class="admin-header text-center">
-        <h1>Admin Panel</h1>
-    </div>
+<?php
+session_start();
 
-    <div class="mt-4 text-center">
-        <p>Bienvenue sur le Panel Admin. on gere les utilisateurs et leurs roles.</p>
-        <a href="signIn.php" class="btn btn-success admin-btn">Administrateur</a>
-    </div>
-</div>
+$error = isset($_GET['error']) ? $_GET['error'] : '';
+?>
+
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="assets/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="icon" type="image/x-icon" href="assets/img_ecolo/logo_eco.png" />
+    <title>Covoiturage écologique
+
+    </title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
 
 
-<div id="admin-signin" class="container mt-5 d-none">
-    <div class="signin-header">
-        <a class="navbar-brand" href="index.php" style="margin-right:10px;" class="logo">
-            <img src="assets/img_ecolo/logo_eco.png" alt="logo" style="width:80px;" class="rounded-pill" />
-    </div>
-    <div class="mt-4">
-        <h2 class="text-center">Connexion Administrateur</h2>
-        <main class="form-signin w-100 m-auto">
-            <form>
-                <div class="form-paper">
-                    <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
-                    <label for="floatingInput">Adresse e-mail</label>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.php" style="margin-right:10px;" class="logo">
+                    <img src="assets/img_ecolo/logo_eco.png" alt="logo" style="width:80px;" class="rounded-pill" />
+                    <a href="index.php" class="logo"><span>Eco</span>Ride</a>
+
+                    <button type="button" class="navbar-toggler" data-bs-toggle="collapse"
+                        data-bs-target="#navbarCollapse">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarCollapse">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item"><a href="index.php" class="nav-link">Accueil</a></li>
+                            <li class="nav-item"><a href="contact.php" class="nav-link">Contact</a></li>
+
+
+                        </ul>
+
+
+
+
+                    </div>
+
+            </div>
+        </nav>
+    </header>
+    <main class="d-flex justify-content-center align-items-center vh-100">
+        <div class="form-signin w-100 m-auto" style="max-width: 400px;">
+            <form method="POST" action="handleSignIn.php">
+                <div class="text-center">
+                    <img class="mb-4 img-fluid rounded" src="assets/img_ecolo/reglages.png" alt="Image de tablette" style="max-width: 100%; height: auto;">
+                    <h1 class="h3 mb-3 fw-normal">Hello Admin</h1>
                 </div>
-                <div class="form-panel">
-                    <input type="password" class="form-control" id="panelPassword" placeholder="Password">
-                    <label for="panelPassword">Mot de passe</label>
+
+                <?php if (!empty($error)) echo '<p class="text-danger text-center">' . htmlspecialchars($error) . '</p>'; ?>
+
+                <div class="form-floating mb-3">
+                    <input type="email" class="form-control" name="email" id="floatingInput" placeholder="name@example.com"
+                        required>
+                    <label for="floatingInput">Email</label>
                 </div>
-                <button class="btn btn-success-- w-100 py-2" type="submit">Se connecter</button>
+
+                <div class="form-floating mb-3">
+                    <input type="password" class="form-control" name="password" id="floatingPassword"
+                        placeholder="Mot de passe" required>
+                    <label for="floatingPassword">Mot de passe</label>
+                </div>
+
+                <button class="btn btn-success w-100 py-2" type="submit">Se connecter</button>
             </form>
-        </main>
-    </div>
-</div>
+
+    </main>
+
+    <?php require_once('templates/footer.php'); ?>
