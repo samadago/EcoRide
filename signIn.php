@@ -36,7 +36,8 @@ $error = isset($_GET['error']) ? $_GET['error'] : '';
         </div>
 
         <div class="text-center mt-4">
-            <button class="btn btn-success w-100 py-2" type="submit">Admin</button>
+            <a href="admin_panel.php" class="btn btn-success w-100 py-2">Admin</a>
+
 
         </div>
     </div>
