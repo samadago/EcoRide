@@ -49,11 +49,11 @@
     <!-- Sidebar -->
     <div class="sidebar">
         <h4 class="text-center py-3">Admin Dashboard</h4>
+        <a href="admin_panel.php">Admin Panel</a>
         <a href="#">Employe</a>
         <a href="#">Chauffeur</a>
         <a href="#">credits</a>
         <a href="#">covoiturages</a>
-
         <a href="#">Logout</a>
     </div>
 
