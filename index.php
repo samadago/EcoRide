@@ -25,7 +25,7 @@
             </div>
 
             <div class="carousel-item">
-                <img src="assets/img_ecolo/rute.jpg" class="d-block w-100" alt="Route écologique dans la nature">
+                <img src="assets/img_ecolo/route.jpg" class="d-block w-100" alt="Route écologique dans la nature">
                 <div class="container">
                     <div class="carousel-caption">
                         <h1>Des trajets partagés, un impact réduit</h1>

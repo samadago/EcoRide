@@ -6,6 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Admin Dashboard</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+</head>
+
+<body>
+
     <style>
         body {
             min-height: 100vh;
@@ -18,12 +23,12 @@
             left: 0;
             top: 0;
             width: 250px;
-            background-color: #343a40;
-            color: #fff;
+            background-color: #a3d9a5;
+            color: #495057;
         }
 
         .sidebar a {
-            color: #adb5bd;
+            color: rgb(26, 28, 31);
             text-decoration: none;
             display: block;
             padding: 10px 20px;
@@ -40,16 +45,13 @@
             padding: 20px;
         }
     </style>
-</head>
-
-<body>
 
     <!-- Sidebar -->
     <div class="sidebar">
         <h4 class="text-center py-3">Admin Dashboard</h4>
-        <a href="#">Dashboard</a>
-        <a href="#">Users</a>
-        <a href="#">Voitures</a>
+        <a href="#">Employe</a>
+        <a href="#">Chauffeur</a>
+        <a href="#">credits</a>
         <a href="#">covoiturages</a>
 
         <a href="#">Logout</a>
@@ -61,7 +63,7 @@
             <!-- Header -->
             <div class="d-flex justify-content-between align-items-center mb-4">
                 <h1 class="h3">Bienvenue, Admin</h1>
-                <button class="btn btn-success">Add New</button>
+                <button class="btn btn-success">Ajouter le nouveau</button>
             </div>
 
             <!-- Statistics -->
@@ -85,16 +87,18 @@
                 <div class="col-md-3">
                     <div class="card text-white bg-warning mb-3">
                         <div class="card-body">
-                            <h5 class="card-title">Prix</h5>
-                            <p class="card-text fs-3">20€</p>
+                            <h5 class="card-title">Place</h5>
+                            <p class="card-text fs-3">3</p>
+
                         </div>
                     </div>
                 </div>
                 <div class="col-md-3">
                     <div class="card text-white bg-danger mb-3">
                         <div class="card-body">
-                            <h5 class="card-title">Place</h5>
-                            <p class="card-text fs-3">3</p>
+                            <h5 class="card-title">Prix</h5>
+                            <p class="card-text fs-3">20€</p>
+
                         </div>
                     </div>
                 </div>
@@ -110,7 +114,7 @@
                         <thead>
                             <tr>
                                 <th>#</th>
-                                <th>Client</th>
+                                <th>Chauffeur</th>
                                 <th>Immatriculation</th>
                                 <th>Status</th>
                                 <th>Total</th>
@@ -126,7 +130,7 @@
                             </tr>
                             <tr>
                                 <td>2</td>
-                                <td>Dvid</td>
+                                <td>David</td>
                                 <td>#12346</td>
                                 <td><span class="badge bg-warning">Pending</span></td>
                                 <td>15€</td>
