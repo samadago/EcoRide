@@ -43,51 +43,8 @@
 
                     <article class="col-md-5 contact-form rounded p-4 m-4">
                         <h2 class="p-3">Formulaire de contact</h2>
-                        <?php
-                        // define variables and set to empty values
-                        $nameErr = $emailErr =  "";
-                        $name = $email = $comment = "";
 
-                        if ($_SERVER["REQUEST_METHOD"] == "POST") {
-                            if (empty($_POST["name"])) {
-                                $nameErr = "Name is required";
-                            } else {
-                                $name = test_input($_POST["name"]);
-                                // check if name only contains letters and whitespace
-                                if (!preg_match("/^[a-zA-Z-' ]*$/", $name)) {
-                                    $nameErr = "Only letters and white space allowed";
-                                }
-                            }
-
-                            if (empty($_POST["email"])) {
-                                $emailErr = "Email is required";
-                            } else {
-                                $email = test_input($_POST["email"]);
-                                // check if e-mail address is well-formed
-                                if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
-                                    $emailErr = "Invalid email format";
-                                }
-                            }
-
-
-                            if (empty($_POST["comment"])) {
-                                $comment = "";
-                            } else {
-                                $comment = test_input($_POST["comment"]);
-                            }
-
-
-                            function test_input($data)
-                            {
-                                $data = trim($data);
-                                $data = stripslashes($data);
-                                $data = htmlspecialchars($data);
-                                return $data;
-                            }
-                        }
-                        ?>
-
-                        <form action="/<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>success" class="form p-3" enctype="multipart/form-data" method="POST"
+                        <form action="" class="form p-3" enctype="multipart/form-data" method="POST"
                             name="contact">
 
                             <input type="hidden" name="form-name" value="contact">
@@ -95,7 +52,7 @@
                             <div class="input-group mb-3">
                                 <span class="input-group-text">Titre :</span>
                                 <input type="text" class="form-control" id="Titre" name="titre" aria-label="titre"
-                                    aria-describedby="<?php echo $name; ?>titre" required="true">
+                                    aria-describedby="titre" required="true">
                             </div>
 
                             <!-- Email -->

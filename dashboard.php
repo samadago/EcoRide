@@ -140,7 +140,7 @@
                                 <td>Mike</td>
                                 <td>#12347</td>
                                 <td><span class="badge bg-danger">Cancelled</span></td>
-                                <td>15</td>
+                                <td>15€</td>
                             </tr>
                         </tbody>
                     </table>
