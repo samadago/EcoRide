@@ -1,6 +1,6 @@
 // app/scripts/trip_status.php
 <?php
-require_once __DIR__ . '/../libs/db.php';
+require_once __DIR__ . '/../libs/pdo.php';
 session_start();
 
 if (!isset($_SESSION['user']) || $_SESSION['user']['role'] !== 'driver') {

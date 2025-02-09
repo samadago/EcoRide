@@ -49,9 +49,7 @@
     <!-- Sidebar -->
     <div class="sidebar">
         <h4 class="text-center py-3">Admin Dashboard</h4>
-        <a href="admin_panel.php">Admin Panel</a>
-        <a href="#">Employe</a>
-        <a href="#">Chauffeur</a>
+        <a href="#">Utilisateur</a>
         <a href="#">credits</a>
         <a href="#">covoiturages</a>
         <a href="#">Logout</a>
@@ -63,7 +61,7 @@
             <!-- Header -->
             <div class="d-flex justify-content-between align-items-center mb-4">
                 <h1 class="h3">Bienvenue, Admin</h1>
-                <button class="btn btn-success">Ajouter le nouveau</button>
+
             </div>
 
             <!-- Statistics -->
@@ -71,7 +69,7 @@
                 <div class="col-md-3">
                     <div class="card text-white bg-primary mb-3">
                         <div class="card-body">
-                            <h5 class="card-title">Users</h5>
+                            <h5 class="card-title">Utilisateurs</h5>
                             <p class="card-text fs-3">5</p>
                         </div>
                     </div>
@@ -84,20 +82,12 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3">
-                    <div class="card text-white bg-warning mb-3">
-                        <div class="card-body">
-                            <h5 class="card-title">Place</h5>
-                            <p class="card-text fs-3">3</p>
 
-                        </div>
-                    </div>
-                </div>
                 <div class="col-md-3">
                     <div class="card text-white bg-danger mb-3">
                         <div class="card-body">
-                            <h5 class="card-title">Prix</h5>
-                            <p class="card-text fs-3">20€</p>
+                            <h5 class="card-title">Covoiturage</h5>
+                            <p class="card-text fs-3">20</p>
 
                         </div>
                     </div>
@@ -114,10 +104,10 @@
                         <thead>
                             <tr>
                                 <th>#</th>
-                                <th>Chauffeur</th>
-                                <th>Immatriculation</th>
-                                <th>Status</th>
-                                <th>Total</th>
+                                <th>Nom</th>
+                                <th>Prenom</th>
+                                <th>Email</th>
+                                <th>Telephone</th>
                             </tr>
                         </thead>
                         <tbody>
@@ -147,7 +137,56 @@
                 </div>
             </div>
         </div>
+
+        <div class="card mt-4">
+            <div class="card-header">
+                Chauffeur
+            </div>
+            <div class="card-body">
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th>#</th>
+                            <th>Nom</th>
+                            <th>Prenom</th>
+                            <th>Email</th>
+                            <th>Telephone</th>
+                            <th>Immatriculation</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>Lili</td>
+                            <td>#12345</td>
+                            <td><span class="badge bg-success">Complet</span></td>
+                            <td>20€</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>David</td>
+                            <td>#12346</td>
+                            <td><span class="badge bg-warning">Pending</span></td>
+                            <td>15€</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>Mike</td>
+                            <td>#12347</td>
+                            <td><span class="badge bg-danger">Cancelled</span></td>
+                            <td>15€</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
     </div>
+
+    </div>
+
+
+
+
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
