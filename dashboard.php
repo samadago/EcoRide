@@ -52,7 +52,7 @@
         <a href="#">Utilisateur</a>
         <a href="#">credits</a>
         <a href="#">covoiturages</a>
-        <a href="#">Logout</a>
+        <a href="logout.php">Logout</a> 
     </div>
 
     <!-- Main Content -->

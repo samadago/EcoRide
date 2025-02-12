@@ -1,12 +1,12 @@
 <?php
 // Connexion à la base de données
-$host = '127.0.0.1';
-$dbname = 'covoiturage';
+$host = 'ecoride_db';
+$dbname = 'covoiturage_bd';
 $username = 'root';
 $password = 'yes';
 
 try {
-    $pdo = new PDO("mysql:host=$host;dbname=covoiturage;charset=utf8", $username, $password);
+    $pdo = new PDO("mysql:host=$host;dbname=$dbname;charset=utf8", $username, $password);
     $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 } catch (PDOException $e) {
     die("Erreur de connexion à la base de données : " . $e->getMessage());
@@ -43,8 +43,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     // Insertion de l'utilisateur dans la base de données
     try {
-        $sql = "INSERT INTO utilisateur (nom, prenom, email, password, telephone, adresse, date_naissance, photo, pseudo)
-                VALUES (:nom, :prenom, :email, :password, :telephone, :adresse, :date_naissance, :photo, :pseudo)";
+        $sql = "INSERT INTO utilisateur (nom, prenom, email, password, is_admin, telephone, adresse, date_naissance, photo, pseudo)
+                VALUES (:nom, :prenom, :email, :password, :is_admin, :telephone, :adresse, :date_naissance, :photo, :pseudo)";
         $stmt = $pdo->prepare($sql);
 
         // Exécution avec les paramètres
@@ -53,6 +53,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             ':prenom' => $prenom,
             ':email' => $email,
             ':password' => $password,
+            ':is_admin' => 0,
             ':telephone' => $telephone,
             ':adresse' => $adresse,
             ':date_naissance' => $date_naissance,

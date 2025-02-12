@@ -1,0 +1,45 @@
+services:
+  db:
+    image: mysql:8.0
+    container_name: ecoride_db
+    environment:
+      MYSQL_ROOT_PASSWORD: yes
+      MYSQL_DATABASE: covoiturage_bd
+      MYSQL_ROOT_HOST: '%'
+    command: 
+      - --default-authentication-plugin=mysql_native_password
+      - --character-set-server=utf8mb4
+      - --collation-server=utf8mb4_unicode_ci
+    volumes:
+      - db_data:/var/lib/mysql
+      - ./covoiturage_bd.sql:/docker-entrypoint-initdb.d/init.sql
+    ports:
+      - "3306:3306"
+    networks:
+      - ecoride-net
+
+  web:
+    # build:
+    #   context: .
+    #   dockerfile: Dockerfile
+    image: ecoride:v0.0.3
+    container_name: ecoride_web
+    volumes:
+      - ./:/var/www/html
+    ports:
+      - "80:80"
+    depends_on:
+      - db
+    environment:
+      DB_HOST: ecoride_db
+      DB_NAME: covoiturage_bd
+      DB_USER: root
+      DB_PASSWORD: 'yes'
+    networks:
+      - ecoride-net
+
+volumes:
+  db_data:
+
+networks:
+  ecoride-net:
