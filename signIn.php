@@ -34,6 +34,12 @@ $error = isset($_GET['error']) ? $_GET['error'] : '';
         <div class="text-center mt-4">
             <p>Pas encore de compte ? <a href="handleSignup.php">Inscrivez-vous ici</a></p>
         </div>
+
+        <div class="text-center mt-4">
+            <a href="admin_panel.php" class="btn btn-success w-100 py-2">Admin</a>
+
+
+        </div>
     </div>
 </main>
 

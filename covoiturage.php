@@ -78,7 +78,7 @@
         </div>
     </div>
 
-   
+
 
     <!-- Si aucun covoiturage n'est disponible -->
     <div class="trip-card">
@@ -186,5 +186,7 @@
     </div>
 </section>
 
-
+<script src="creer_covoit.php"></script>
+<script src="recherche_covoit.php"></script>
+<script src="choisir_covoit.php"></script>
 <?php require_once('templates/footer.php'); ?>

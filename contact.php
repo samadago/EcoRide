@@ -2,7 +2,12 @@
 
 
 
-<main class="main container">
+
+
+
+
+
+<main class="ecologie">
     <!-- Main  -->
     <div class="container">
         <main class="row">
@@ -17,28 +22,31 @@
                     <article class="col-md-5 address-main rounded p-4 m-4">
                         <h2 class="p-3">EcoRide</h2>
                         <ul class="p-3 list-unstyled mt-3">
-                            <li8>8 rue Sarah Bernhardt</li>
-                                <li>92600 Asnières-sur-Seine</li>
-                                <li class="mt-4">
-                                    <i class="fa-solid fa-mobile-screen-button fa-lg" style="color: #efeaea;"></i>
-                                    <span>01459876503</span>
-                                </li>
-                                <li>
-                                    <i class="fa-solid fa-envelope" style="color: hsl(0, 15%, 95%);"></i>
-                                    <span>contact@covoiturage-ecologique.com</span>
-                                </li>
-                                <li class="mt-5">
-                                    <button type="button" class="btn custom-btn w-100" data-bs-toggle="modal"
-                                        data-bs-target="#exampleModal">Voir sur la carte</button>
-                                </li>
+                            <li>8 rue Sarah Bernhardt</li>
+                            <li>92600 Asnières-sur-Seine</li>
+                            <li class="mt-4">
+                                <i class="fa-solid fa-mobile-screen-button fa-lg" style="color: #efeaea;"></i>
+                                <span>01459876503</span>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-envelope" style="color: hsl(0, 15%, 95%);"></i>
+                                <span>contact@covoiturage-ecologique.com</span>
+                            </li>
+                            <li class="mt-5">
+                                <button type="button" class="btn custom-btn w-100" data-bs-toggle="modal"
+                                    data-bs-target="#exampleModal">Voir sur la carte</button>
+                            </li>
                         </ul>
                     </article>
 
                     <!-- Contact form -->
+
                     <article class="col-md-5 contact-form rounded p-4 m-4">
                         <h2 class="p-3">Formulaire de contact</h2>
-                        <form action="/success" class="form p-3" enctype="multipart/form-data" method="POST"
+
+                        <form action="" class="form p-3" enctype="multipart/form-data" method="POST"
                             name="contact">
+
                             <input type="hidden" name="form-name" value="contact">
                             <!-- Titre -->
                             <div class="input-group mb-3">
@@ -62,6 +70,10 @@
                             <!-- Button -->
                             <button class="btn custom-btn mt-3 w-100" type="submit">Envoyer</button>
                         </form>
+
+
+
+
                     </article>
                 </div>
             </section>

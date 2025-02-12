@@ -14,3 +14,6 @@ document.getElementById("searchForm").addEventListener("submit", function(event)
       alert("Veuillez entrer un lieu de départ et une destination.");
   }
 });
+
+
+

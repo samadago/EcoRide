@@ -14,10 +14,12 @@
                 <img src="assets/img_ecolo/voiture_electri.jpg" class="d-block w-100"
                     alt="Voiture électrique écologique">
                 <div class="container">
-                    <div class="carousel-caption text-start">
-                        <h1>Nos véhicules électriques</h1>
+                    <div class="carousel-caption ">
+                        <h1>Nos Voitures</h1>
+                        <br>
+                        <br>
+                        <br>
 
-                        <p><a class="btn btn-lg btn-primary" href="signupForm.php">Rejoignez-nous dès maintenant</a></p>
                     </div>
                 </div>
             </div>
@@ -27,20 +29,23 @@
                 <div class="container">
                     <div class="carousel-caption">
                         <h1>Des trajets partagés, un impact réduit</h1>
-                        <p>Ensemble, nous réduisons notre empreinte carbone en partageant nos trajets à bord de voitures
-                            électriques.</p>
-                        <p><a class="btn btn-lg btn-primary" href="trajets_partages.php">En savoir plus</a></p>
+                        <br>
+                        <br>
+                        <br>
+                        <p><a class="btn btn-lg btn-success" href="trajets_partages.php">En savoir plus</a></p>
                     </div>
                 </div>
             </div>
 
             <div class="carousel-item">
-                <img src="assets/img_ecolo/bureau.jpg" class="d-block w-100" alt="Communauté de covoiturage">
+                <img src="assets/img_ecolo/commu_eco.jpg" class="d-block w-100" alt="Communauté de covoiturage">
                 <div class="container">
-                    <div class="carousel-caption text-end">
+                    <div class="carousel-caption ">
+                        <br>
+                        <br>
                         <h1>Rejoignez notre communauté</h1>
-                        <p>Un réseau croissant de conducteurs et passagers engagés pour un avenir plus vert.</p>
-                        <p><a class="btn btn-lg btn-primary" href="galerie.php">Voir la galerie</a></p>
+
+                        <p><a class="btn btn-lg btn-success" href="galerie.php">Voir la galerie</a></p>
                     </div>
                 </div>
             </div>
@@ -114,7 +119,7 @@
                     un avenir durable.</p>
             </div>
             <div class="col-md-5 order-md-1">
-                <img src="assets/img_ecolo/commu_eco.jpg" class="featurettez-image img rounded circle
+                <img src="assets/img_ecolo/bureau.jpg" class="featurettez-image img rounded circle
                 " width="500"
                     height="500" alt="Communauté écologique">
             </div>
