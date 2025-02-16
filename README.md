@@ -1,47 +1,113 @@
-EcoRide Covoiturage
+# EcoRide - Covoiturage Écologique
 
-Bienvenue sur le dépôt GitHub du projet EcoRide, une application web développée pour la gestion et la visualisation des informations des Covoiturage EcoRide.
+[![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
-Description du Projet
+![EcoRide Banner](assets/images/banner.jpg)
 
-EcoRide  permet aux visiteurs/Passagers de découvrir les voiture qui sont en coviturage , et offre une interface de gestion pour les employés et les Chauffeurs qui propose des trajet en mode ecologique.
+Une application web de covoiturage écologique pour connecter passagers et conducteurs engagés.
 
-Technologies Utilisées
+## 📖 Description
 
-HTML, CSS, JavaScript : Pour l'interface utilisateur.
-PHP : Scripting côté serveur.
-MySQL : Base de données relationnelle.
-MongoDB : Base de données non relationnelle.
-Bootstrap : Design responsive.
+EcoRide est une plateforme de covoiturage qui permet :
+- 🔍 Aux passagers de trouver des trajets écologiques
+- 🚗 Aux conducteurs de proposer leurs trajets
+- 📊 Une interface de gestion pour les employés
+- ♻️ Une réduction de l'empreinte carbone des déplacements
+
+## 🛠 Technologies
+
+**Frontend:**  
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
+![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=flat&logo=bootstrap&logoColor=white)
+
+**Backend:**  
+![PHP](https://img.shields.io/badge/PHP-777BB4?style=flat&logo=php&logoColor=white)
+
+**Bases de données:**  
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=mysql&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat&logo=mongodb&logoColor=white)
+
+**Outils:**  
+![WAMP](https://img.shields.io/badge/WAMP-FF6600?style=flat)
+![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
+
+## 🚀 Installation
+
+### Prérequis
+- WAMP/XAMPP installé
+- PHP 7.4+
+- Comptes MongoDB Atlas/Compass
+
+### Étapes d'installation
+1. Cloner le dépôt :
+```bash
+git clone https://github.com/samadago/EcoRide
+```
+2. Configurer WAMP :
+Placer le projet dans wamp64/www/
+Démarrer Apache et MySQL
+
+3. Base de données MySQL :
+```bash
+mysql -u root -p < covoiturage_bd.sql
+```
+
+4. Démarrer l'application :
+http://localhost/EcoRide/public/
+
+## 🚀 Déploiement sur Hostinger avec Docker Compose
+
+### Prérequis
+- Compte Hostinger 
+- VPS 
+- Docker et Docker Compose installés
+- Client SSH (pour la connexion au serveur)
+
+### Étapes de déploiement
+
+1. **Connexion au serveur Hostinger**
+    ```bash
+    ssh root@ip_vps_hostinger
+    ```
+
+2. **Build de l'image docker en local**
+    ```bash
+    docker build -t samadago/ecoride:1.0.0
+    ```
+    > La version de l'image doit s'incrémenter a chaque montée de version de l'application.
+
+3. **Lancement du fichier `docker-compose.yml`**
+    ```bash
+    docker compose up -d
+    ```
+### Post-déploiement
+
+- Configurer le DNS dans le panel Hostinger
+- Activer SSL via Let's Encrypt
+- Tester l'application : https://votre-domaine.com
 
 
-Environnement de Développement
+## 📖 Utilisation
 
-WAMP : Serveur local Apache et MySQL.
-Visual Studio Code, Cursor : Éditeurs de code.
-Git : Contrôleur de version.
-Mysql : Base de données non relationnel
+Rôles disponibles :
 
-Structure du Projet
+- Visiteur : Consulter les trajets
+- Passager : Réserver des trajets
+- Conducteur : Publier/gérer des trajets 
+- Admin : Gestion complète
 
-assets/ -> Contient les documents CSS ; JavaScript ; Image et Uploads ; favicon.ico.
-docs/ -> Dossier pour regrouper la gestion de projet, les diagrammes, la charte graphique et le manuel d'utilisation.
-index.php -> Ce fichier redirige automatiquement vers le fichier index.php dans public.
+📚 Consulter le Manuel d'utilisation pour plus de détails.
 
+## 🤝 Contribution
 
-Installation
+Les contributions sont les bienvenues !
+Procédure :
 
-Clonez le dépôt : git clone https://github.com/samadago/EcoRide
-Configurez WAMP après l'avoir installé sur le site officiel.
-Après avoir configuré WAMP, vous avez besoin de créer la variable d'environnement dans vos réglages Windows
-Une fois fait, il faut aller sur l'application WAMP Control Panel et l'executer en tant qu'administrateur pour éviter tout conflit, le logiciel affichera alors plusieurs logiciels à ouvrir, ouvrez Apache (le serveur) ensuite ouvrez MySQL. Cliquez ensuite sur "Admin" sur la ligne MySQL.
-La page http://localhost/phpmyadmin/ s'ouvrira sur votre navigateur par défaut ensuite cliquez sur "Importer".
-Importez la base de données MySQL en utilisant le fichier EcoRide.sql qui contient tout le code SQL pour créer la BDD complète contenant ses tables et ses valeurs.
-Vérifiez que la base de donnée contient bien les tables du projet. ( Télécharger le code source du projet en .zip et décompresser le tout dans un dossier nommé "zoo_arcadia" qui devra être dans votre répertoire "htdocs" qui se trouve dans le dossier "xampp" (tout dépend de où vous l'avez positionner pendant votre installation, si par défaut : le dossier se trouve dans "utilisateur" dans le Disque local).)
-Ouvrez un invité de commandes : aller à la racine du projet. Télécharger le bon fichier selon votre version php. Après avoir déplacer le fichier correspondant dans le répertoire "ext" de "php", aller sur le fichier "php.ini" et chercher la ligne "extension" en utilisant la barre de recherche (raccourci CTRL+F) ajouter la ligne "extension=php_mongodb.dll".
-N'oublier pas de créer une base de données et une collection MongoDB dans MongoDB Compass ou Atlas, une fois fait si vous êtes sur le port par défaut vous devrez avoir comme URI, databaseName et collections (clicks) : $uri = '"mysql://localhost:27017" ; "$databaseName = 'covoiturage';"
-Vous pouvez maintenant lancez l'application via votre serveur local en utilisant l'url : http://localhost/EcoRide/index.php sur votre navigateur par défaut.
+- Forker le projet
+- Créer une branche (git checkout -b feature/AmazingFeature)
+- Commiter les changements (git commit -m 'Add some AmazingFeature')
+- Pusher (git push origin feature/AmazingFeature)
+- Ouvrir une Pull Request
 
-Utilisation
-
-Naviguez dans l'application en utilisant les différents rôles pour explorer les fonctionnalités spécifiques à chaque utilisateur. Un fichier Manuel d'utilisation EcoRide.pdf est dans le dépôt Github, dans le dossier docs, il explique toutes les fonctionnalités et comment y accéder
