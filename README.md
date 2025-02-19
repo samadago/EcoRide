@@ -97,6 +97,8 @@ Rôles disponibles :
 - Passager : Réserver des trajets
 - Conducteur : Publier/gérer des trajets 
 - Admin : Gestion complète
+- Login et mot de passe administrateur:yassine.test@ecoride.com |Mot de passe :Test123
+
 
 📚 Consulter le Manuel d'utilisation pour plus de détails.
 
