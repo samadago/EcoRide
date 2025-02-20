@@ -96,7 +96,7 @@
                                 </thead>
                                 <tbody>
                                     <tr>
-                                        <td>14</td>
+                                        <td>1</td>
                                         <td>Durand</td>
                                         <td>Employé</td>
                                         <td>durand.employe@ecoride.fr</td>
@@ -112,7 +112,7 @@
                                     </tr>
                                 <tbody>
                                     <tr>
-                                        <td>15</td>
+                                        <td>2</td>
                                         <td>Jean</td>
                                         <td>Dupont</td>
                                         <td>dupont.employe@ecoride.com</td>
@@ -209,238 +209,244 @@
 
 
 
-                                <!-- Gestion des Covoiturages -->
-                                <div class="card my-4">
-                                    <div class="card-header d-flex justify-content-between align-items-center">
-                                        <h2>Covoiturages</h2>
-                                        <button class="btn btn-success" data-bs-toggle="modal" data-bs-target="#addCovoitModal">Ajouter</button>
-                                    </div>
-                                    <div class="card-body">
-                                        <table class="table table-bordered">
-                                            <thead class="table-dark">
-                                                <tr>
-                                                    <th>ID</th>
-                                                    <th>Conducteur</th>
-                                                    <th>Départ</th>
-                                                    <th>Arrivée</th>
-                                                    <th>Date Départ</th>
-                                                    <th>Date Arrivée</th>
-                                                    <th>Statut</th>
-                                                    <th>Places</th>
-                                                    <th>Prix</th>
-                                                    <th>Immatriculation</th>
-
-                                                    <th>Actions</th>
-                                                </tr>
-                                            </thead>
-                                            <tbody>
-                                                <tr>
-                                                    <td>1</td>
-                                                    <td>Sophie</td>
-                                                    <td>Paris</td>
-                                                    <td>Lyon</td>
-                                                    <td>2025-03-25</td>
-                                                    <td>2025-03-25</td>
-                                                    <td><span class="badge bg-success">Disponible</span></td>
-                                                    <td>2</td>
-                                                    <td>20€</td>
-                                                    <td>eg-020-fr</td>
-
-                                                    <td>
-                                                        <button class="btn btn-warning btn-sm">Modifier</button>
-                                                        <button class="btn btn-danger btn-sm">Supprimer</button>
-                                                    </td>
-
-                                                </tr>
-                                            </tbody>
-
-                                            <tbody>
-                                                <tr>
-                                                    <td>2</td>
-                                                    <td>David</td>
-                                                    <td>Marseille</td>
-                                                    <td>Nice</td>
-                                                    <td>2025-03-10</td>
-                                                    <td>2025-03-10</td>
-                                                    <td><span class="badge bg-success">Disponible</span></td>
-                                                    <td>2</td>
-                                                    <td>15€</td>
-                                                    <td>eg-050-fr</td>
-                                                    <td>
-                                                        <button class="btn btn-warning btn-sm">Modifier</button>
-                                                        <button class="btn btn-danger btn-sm">Supprimer</button>
-                                                    </td>
-                                                </tr>
-                                            </tbody>
-                                            <tbody>
-                                                <tr>
-                                                    <td>3</td>
-                                                    <td>Marc</td>
-                                                    <td>Paris</td>
-                                                    <td>Lille</td>
-                                                    <td>2025-03-05</td>
-                                                    <td>2025-03-05</td>
-                                                    <td><span class="badge bg-success">En cours</span></td>
-                                                    <td>2</td>
-                                                    <td>12€</td>
-                                                    <td>eg-035-fr</td>
-                                                    <td>
-                                                        <button class="btn btn-warning btn-sm">Modifier</button>
-                                                        <button class="btn btn-danger btn-sm">Supprimer</button>
-                                                    </td>
-                                                </tr>
-                                            </tbody>
-
-                                            <tbody>
-                                                <tr>
-                                                    <td>4</td>
-                                                    <td>Sophie</td>
-                                                    <td>Bordeaux</td>
-                                                    <td>Nice</td>
-                                                    <td>2025-03-16</td>
-                                                    <td>2025-03-16</td>
-                                                    <td><span class="badge bg-success">Complete</span></td>
-                                                    <td>2</td>
-                                                    <td>17€</td>
-                                                    <td>eg-045-fr</td>
-                                                    <td>
-                                                        <button class="btn btn-warning btn-sm">Modifier</button>
-                                                        <button class="btn btn-danger btn-sm">Supprimer</button>
-                                                    </td>
-                                                </tr>
-                                            </tbody>
-                                            <tbody>
-                                                <tr>
-                                                    <td>5</td>
-                                                    <td>David</td>
-                                                    <td>Toulouse</td>
-                                                    <td>Lyon</td>
-                                                    <td>2025-03-13</td>
-                                                    <td>2025-03-13</td>
-                                                    <td><span class="badge bg-success">en cours</span></td>
-                                                    <td>3</td>
-                                                    <td>25€</td>
-                                                    <td>eg-060-fr</td>
-                                                    <td>
-                                                        <button class="btn btn-warning btn-sm">Modifier</button>
-                                                        <button class="btn btn-danger btn-sm">Supprimer</button>
-                                                    </td>
-                                                </tr>
-                                            </tbody>
 
 
-                                        </table>
-
-
-                                    </div>
-                                </div>
-
-
-
-                                <!-- Modale Ajouter Utilisateur -->
-                                <div class="modal fade" id="addUserModal" tabindex="-1" aria-hidden="true">
-                                    <div class="modal-dialog">
-                                        <div class="modal-content">
-                                            <div class="modal-header">
-                                                <h5 class="modal-title">Ajouter Utilisateur</h5>
-                                                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
-                                            </div>
-                                            <div class="modal-body">
-                                                <form>
-                                                    <input type="text" class="form-control mb-2" placeholder="Nom">
-                                                    <input type="text" class="form-control mb-2" placeholder="Prenom">
-                                                    <input type="email" class="form-control mb-2" placeholder="Email">
-                                                    <input type="telephone" class="form-control mb-2" placeholder="Telephone">
-                                                    <input type="text" class="form-control mb-2" placeholder="Date de naissance">
-                                                    <input type="text" class="form-control mb-2" placeholder="Adresse">
-                                                    <input type="date" class="form-control mb-2" placeholder="Date de naissance">
-                                                    <input type="image" class="form-control mb-2" placeholder="Photo">
-                                                    <input type="text" class="form-control mb-2" placeholder="Pseudo">
-                                                    <div class="mb-3">
-                                                        <label for="role" class="form-label">Sélectionner un rôle</label>
-                                                        <select class="form-select" name="role" required>
-
-
-
-
-                                                            <option value="utilisateur">Admin</option>
-                                                            <option value="utilisateur">Utilisateur</option>
-
-                                                        </select>
-                                                    </div>
-                                                    <button type="submit" name="addUser" id="btnAddUser" class="btn btn-lg my-5" disabled> Valider </button>
-                                                </form>
-                                            </div>
-                                            <button type="submit" class="btn btn-primary w-100">Ajouter</button>
-                                            </form>
-                                        </div>
-                                    </div>
-                                </div>
+                            </table>
                         </div>
-
-                        <!-- Modale Ajouter Chauffeurs -->
-                        <div class="modal fade" id="addDriverModal" tabindex="-1" aria-hidden="true">
-                            <div class="modal-dialog">
-                                <div class="modal-content">
-                                    <div class="modal-header">
-                                        <h5 class="modal-title">Ajouter Chauffeurs</h5>
-                                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
-                                    </div>
-                                    <div class="modal-body">
-                                        <form>
-                                            <input type="text" class="form-control mb-2" placeholder="Nom">
-                                            <input type="text" class="form-control mb-2" placeholder="Prenom">
-                                            <input type="email" class="form-control mb-2" placeholder="Email">
-                                            <input type="telephone" class="form-control mb-2" placeholder="Telephone">
-                                            <input type="text" class="form-control mb-2" placeholder="Date de naissance">
-                                            <input type="text" class="form-control mb-2" placeholder="Adresse">
-                                            <input type="date" class="form-control mb-2" placeholder="Date de naissance">
-                                            <input type="image" class="form-control mb-2" placeholder="Photo">
-                                            <input type="text" class="form-control mb-2" placeholder="Pseudo">
-                                            <button type="submit" class="btn btn-primary w-100">Ajouter</button>
-                                        </form>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- Modale Ajouter Covoiturage -->
-                        <div class="modal fade" id="addCovoitModal" tabindex="-1" aria-hidden="true">
-                            <div class="modal-dialog">
-                                <div class="modal-content">
-                                    <div class="modal-header">
-                                        <h5 class="modal-title">Ajouter Covoiturage</h5>
-                                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
-                                    </div>
-                                    <div class="modal-body">
-                                        <form>
-                                            <input type="text" class="form-control mb-2" placeholder="Covoiturage">
-                                            <input type="date" class="form-control mb-2" placeholder="Date de depart">
-                                            <input type="heure" class="form-control mb-2" placeholder="Heure de depart">
-                                            <input type="text" class="form-control mb-2" placeholder="Lieu de depart">
-                                            <input type="date" class="form-control mb-2" placeholder="Date d'arrive">
-                                            <input type="heure" class="form-control mb-2" placeholder="heure d'arrive">
-                                            <input type="text" class="form-control mb-2" placeholder="Lieu d'arrive">
-                                            <input type="text" class="form-control mb-2" placeholder="Statut">
-                                            <input type="text" class="form-control mb-2" placeholder="Nombre de place">
-                                            <input type="text" class="form-control mb-2" placeholder="Prix">
-                                            <input type="date" class="form-control mb-2">
-                                            <button type="submit" class="btn btn-primary w-100">Ajouter</button>
-                                        </form>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
                     </div>
 
+                    <!-- Gestion des Covoiturages -->
+                    <div class="card my-4">
+                        <div class="card-header d-flex justify-content-between align-items-center">
+                            <h2>Covoiturages</h2>
+                            <button class="btn btn-success" data-bs-toggle="modal" data-bs-target="#addCovoitModal">Ajouter</button>
+                        </div>
+                        <div class="card-body">
+                            <table class="table table-bordered">
+                                <thead class="table-dark">
+                                    <tr>
+                                        <th>ID</th>
+                                        <th>Conducteur</th>
+                                        <th>Départ</th>
+                                        <th>Arrivée</th>
+                                        <th>Date Départ</th>
+                                        <th>Date Arrivée</th>
+                                        <th>Statut</th>
+                                        <th>Places</th>
+                                        <th>Prix</th>
+                                        <th>Immatriculation</th>
+
+                                        <th>Actions</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>1</td>
+                                        <td>Sophie</td>
+                                        <td>Paris</td>
+                                        <td>Lyon</td>
+                                        <td>2025-03-25</td>
+                                        <td>2025-03-25</td>
+                                        <td><span class="badge bg-success">Disponible</span></td>
+                                        <td>2</td>
+                                        <td>20€</td>
+                                        <td>eg-020-fr</td>
+
+                                        <td>
+                                            <button class="btn btn-warning btn-sm">Modifier</button>
+                                            <button class="btn btn-danger btn-sm">Supprimer</button>
+                                        </td>
+
+                                    </tr>
+                                </tbody>
+
+                                <tbody>
+                                    <tr>
+                                        <td>2</td>
+                                        <td>David</td>
+                                        <td>Marseille</td>
+                                        <td>Nice</td>
+                                        <td>2025-03-10</td>
+                                        <td>2025-03-10</td>
+                                        <td><span class="badge bg-success">Disponible</span></td>
+                                        <td>2</td>
+                                        <td>15€</td>
+                                        <td>eg-050-fr</td>
+                                        <td>
+                                            <button class="btn btn-warning btn-sm">Modifier</button>
+                                            <button class="btn btn-danger btn-sm">Supprimer</button>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                                <tbody>
+                                    <tr>
+                                        <td>3</td>
+                                        <td>Marc</td>
+                                        <td>Paris</td>
+                                        <td>Lille</td>
+                                        <td>2025-03-05</td>
+                                        <td>2025-03-05</td>
+                                        <td><span class="badge bg-success">En cours</span></td>
+                                        <td>2</td>
+                                        <td>12€</td>
+                                        <td>eg-035-fr</td>
+                                        <td>
+                                            <button class="btn btn-warning btn-sm">Modifier</button>
+                                            <button class="btn btn-danger btn-sm">Supprimer</button>
+                                        </td>
+                                    </tr>
+                                </tbody>
+
+                                <tbody>
+                                    <tr>
+                                        <td>4</td>
+                                        <td>Sophie</td>
+                                        <td>Bordeaux</td>
+                                        <td>Nice</td>
+                                        <td>2025-03-16</td>
+                                        <td>2025-03-16</td>
+                                        <td><span class="badge bg-success">Complete</span></td>
+                                        <td>2</td>
+                                        <td>17€</td>
+                                        <td>eg-045-fr</td>
+                                        <td>
+                                            <button class="btn btn-warning btn-sm">Modifier</button>
+                                            <button class="btn btn-danger btn-sm">Supprimer</button>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                                <tbody>
+                                    <tr>
+                                        <td>5</td>
+                                        <td>David</td>
+                                        <td>Toulouse</td>
+                                        <td>Lyon</td>
+                                        <td>2025-03-13</td>
+                                        <td>2025-03-13</td>
+                                        <td><span class="badge bg-success">en cours</span></td>
+                                        <td>3</td>
+                                        <td>25€</td>
+                                        <td>eg-060-fr</td>
+                                        <td>
+                                            <button class="btn btn-warning btn-sm">Modifier</button>
+                                            <button class="btn btn-danger btn-sm">Supprimer</button>
+                                        </td>
+                                    </tr>
+                                </tbody>
+
+
+                            </table>
+
+
+                        </div>
+                    </div>
+
+
+
+                    <!-- Modale Ajouter Utilisateur -->
+                    <div class="modal fade" id="addUserModal" tabindex="-1" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title">Ajouter Utilisateur</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <form>
+                                        <input type="text" class="form-control mb-2" placeholder="Nom">
+                                        <input type="text" class="form-control mb-2" placeholder="Prenom">
+                                        <input type="email" class="form-control mb-2" placeholder="Email">
+                                        <input type="telephone" class="form-control mb-2" placeholder="Telephone">
+                                        <input type="text" class="form-control mb-2" placeholder="Date de naissance">
+                                        <input type="text" class="form-control mb-2" placeholder="Adresse">
+                                        <input type="date" class="form-control mb-2" placeholder="Date de naissance">
+                                        <input type="image" class="form-control mb-2" placeholder="Photo">
+                                        <input type="text" class="form-control mb-2" placeholder="Pseudo">
+                                        <div class="mb-3">
+                                            <label for="role" class="form-label">Sélectionner un rôle</label>
+                                            <select class="form-select" name="role" required>
+
+
+
+
+                                                <option value="utilisateur">Admin</option>
+                                                <option value="utilisateur">Utilisateur</option>
+
+                                            </select>
+                                        </div>
+                                        <button type="submit" name="addUser" id="btnAddUser" class="btn btn-lg my-5" disabled> Valider </button>
+                                    </form>
+                                </div>
+                                <button type="submit" class="btn btn-primary w-100">Ajouter</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
                 </div>
 
+                <!-- Modale Ajouter Chauffeurs -->
+                <div class="modal fade" id="addDriverModal" tabindex="-1" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title">Ajouter Chauffeurs</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                            </div>
+                            <div class="modal-body">
+                                <form>
+                                    <input type="text" class="form-control mb-2" placeholder="Nom">
+                                    <input type="text" class="form-control mb-2" placeholder="Prenom">
+                                    <input type="email" class="form-control mb-2" placeholder="Email">
+                                    <input type="telephone" class="form-control mb-2" placeholder="Telephone">
+                                    <input type="text" class="form-control mb-2" placeholder="Date de naissance">
+                                    <input type="text" class="form-control mb-2" placeholder="Adresse">
+                                    <input type="date" class="form-control mb-2" placeholder="Date de naissance">
+                                    <input type="image" class="form-control mb-2" placeholder="Photo">
+                                    <input type="text" class="form-control mb-2" placeholder="Pseudo">
+                                    <button type="submit" class="btn btn-primary w-100">Ajouter</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Modale Ajouter Covoiturage -->
+                <div class="modal fade" id="addCovoitModal" tabindex="-1" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title">Ajouter Covoiturage</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                            </div>
+                            <div class="modal-body">
+                                <form>
+                                    <input type="text" class="form-control mb-2" placeholder="Covoiturage">
+                                    <input type="date" class="form-control mb-2" placeholder="Date de depart">
+                                    <input type="heure" class="form-control mb-2" placeholder="Heure de depart">
+                                    <input type="text" class="form-control mb-2" placeholder="Lieu de depart">
+                                    <input type="date" class="form-control mb-2" placeholder="Date d'arrive">
+                                    <input type="heure" class="form-control mb-2" placeholder="heure d'arrive">
+                                    <input type="text" class="form-control mb-2" placeholder="Lieu d'arrive">
+                                    <input type="text" class="form-control mb-2" placeholder="Statut">
+                                    <input type="text" class="form-control mb-2" placeholder="Nombre de place">
+                                    <input type="text" class="form-control mb-2" placeholder="Prix">
+                                    <input type="date" class="form-control mb-2">
+                                    <button type="submit" class="btn btn-primary w-100">Ajouter</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
 
 
 
 
-                <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
     </body>
 
 </html>
