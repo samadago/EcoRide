@@ -95,21 +95,21 @@
                                     <th>Adresse</th>
                                     <th>Date de Naissance</th>
                                     <th>Pseudo</th>
-                                    <th>Photo</th>
+
                                     <th>Actions</th>
                                 </tr>
                             </thead>
                             <tbody>
                                 <tr>
                                     <td>1</td>
-                                    <td>Jean</td>
-                                    <td>Dupont</td>
-                                    <td>jean@example.com</td>
-                                    <td>0123456789</td>
+                                    <td>Durand</td>
+                                    <td>Employé</td>
+                                    <td>durand.employe@ecoride.fr</td>
+                                    <td>0623456789</td>
                                     <td>Paris</td>
-                                    <td>1990-05-12</td>
-                                    <td>JeanD</td>
-                                    <td><img src="photo.jpg" width="40"></td>
+                                    <td>1995-06-15</td>
+                                    <td>Dudu</td>
+
                                     <td>
                                         <button class="btn btn-warning btn-sm">Modifier</button>
                                         <button class="btn btn-danger btn-sm">Supprimer</button>
@@ -117,54 +117,22 @@
                                 </tr>
                             <tbody>
                                 <tr>
-                                    <td>1</td>
+                                    <td>2</td>
                                     <td>Jean</td>
                                     <td>Dupont</td>
-                                    <td>jean@example.com</td>
-                                    <td>0123456789</td>
+                                    <td>dupont.employe@ecoride.com</td>
+                                    <td>0623456789</td>
                                     <td>Paris</td>
-                                    <td>1990-05-12</td>
-                                    <td>JeanD</td>
-                                    <td><img src="photo.jpg" width="40"></td>
+                                    <td>1991-05-12</td>
+                                    <td>JiJi</td>
+
                                     <td>
                                         <button class="btn btn-warning btn-sm">Modifier</button>
                                         <button class="btn btn-danger btn-sm">Supprimer</button>
                                     </td>
                                 </tr>
 
-                            <tbody>
-                                <tr>
-                                    <td>1</td>
-                                    <td>Jean</td>
-                                    <td>Dupont</td>
-                                    <td>jean@example.com</td>
-                                    <td>0123456789</td>
-                                    <td>Paris</td>
-                                    <td>1990-05-12</td>
-                                    <td>JeanD</td>
-                                    <td><img src="photo.jpg" width="40"></td>
-                                    <td>
-                                        <button class="btn btn-warning btn-sm">Modifier</button>
-                                        <button class="btn btn-danger btn-sm">Supprimer</button>
-                                    </td>
-                                </tr>
-                            <tbody>
-                                <tr>
-                                    <td>1</td>
-                                    <td>Jean</td>
-                                    <td>Dupont</td>
-                                    <td>jean@example.com</td>
-                                    <td>0123456789</td>
-                                    <td>Paris</td>
-                                    <td>1990-05-12</td>
-                                    <td>JeanD</td>
-                                    <td><img src="photo.jpg" width="40"></td>
-                                    <td>
-                                        <button class="btn btn-warning btn-sm">Modifier</button>
-                                        <button class="btn btn-danger btn-sm">Supprimer</button>
-                                    </td>
-                                </tr>
-                            </tbody>
+
                         </table>
                     </div>
                 </div>
@@ -194,14 +162,14 @@
                             <tbody>
                                 <tr>
                                     <td>1</td>
-                                    <td>Paul</td>
-                                    <td>Martin</td>
-                                    <td>paul@example.com</td>
-                                    <td>0987654321</td>
+                                    <td>Sophie</td>
+                                    <td>Chauffeur</td>
+                                    <td>sophie.chauffeur@gmail.com</td>
+                                    <td>0623456789</td>
                                     <td>Lyon</td>
-                                    <td>1985-08-22</td>
-                                    <td>PaulM</td>
-                                    <td><img src="photo.jpg" width="40"></td>
+                                    <td>1988-05-25</td>
+                                    <td>Soso</td>
+                                    <td><img src="assets/img_ecolo/sophie.jpg" width="40"></td>
                                     <td>
                                         <button class="btn btn-warning btn-sm">Modifier</button>
                                         <button class="btn btn-danger btn-sm">Supprimer</button>
@@ -210,33 +178,15 @@
                             </tbody>
                             <tbody>
                                 <tr>
-                                    <td>1</td>
-                                    <td>Paul</td>
-                                    <td>Martin</td>
-                                    <td>paul@example.com</td>
-                                    <td>0987654321</td>
-                                    <td>Lyon</td>
-                                    <td>1985-08-22</td>
-                                    <td>PaulM</td>
-                                    <td><img src="photo.jpg" width="40"></td>
-                                    <td>
-                                        <button class="btn btn-warning btn-sm">Modifier</button>
-                                        <button class="btn btn-danger btn-sm">Supprimer</button>
-                                    </td>
-                                </tr>
-                            </tbody>
-
-                            <tbody>
-                                <tr>
-                                    <td>1</td>
-                                    <td>Paul</td>
-                                    <td>Martin</td>
-                                    <td>paul@example.com</td>
-                                    <td>0987654321</td>
-                                    <td>Lyon</td>
-                                    <td>1985-08-22</td>
-                                    <td>PaulM</td>
-                                    <td><img src="photo.jpg" width="40"></td>
+                                    <td>2</td>
+                                    <td>David</td>
+                                    <td>Chauffeur</td>
+                                    <td>david.chauffeur@gmail.com</td>
+                                    <td>0615121512</td>
+                                    <td>Marseille</td>
+                                    <td>1999-11-11</td>
+                                    <td>Dave</td>
+                                    <td><img src="assets/img_ecolo/david.jpg" width="40"></td>
                                     <td>
                                         <button class="btn btn-warning btn-sm">Modifier</button>
                                         <button class="btn btn-danger btn-sm">Supprimer</button>
@@ -246,15 +196,15 @@
 
                             <tbody>
                                 <tr>
-                                    <td>1</td>
-                                    <td>Paul</td>
-                                    <td>Martin</td>
-                                    <td>paul@example.com</td>
-                                    <td>0987654321</td>
-                                    <td>Lyon</td>
-                                    <td>1985-08-22</td>
-                                    <td>PaulM</td>
-                                    <td><img src="photo.jpg" width="40"></td>
+                                    <td>3</td>
+                                    <td>Marc</td>
+                                    <td>Chauffeur</td>
+                                    <td>marc.chauffeur@gmail.com</td>
+                                    <td>0610131415</td>
+                                    <td>Paris </td>
+                                    <td>1979-04-08</td>
+                                    <td>Max</td>
+                                    <td><img src="assets/img_ecolo/marc.jpg" width="40"></td>
                                     <td>
                                         <button class="btn btn-warning btn-sm">Modifier</button>
                                         <button class="btn btn-danger btn-sm">Supprimer</button>
@@ -264,15 +214,33 @@
 
                             <tbody>
                                 <tr>
-                                    <td>1</td>
-                                    <td>Paul</td>
-                                    <td>Martin</td>
-                                    <td>paul@example.com</td>
-                                    <td>0987654321</td>
+                                    <td>4</td>
+                                    <td>David</td>
+                                    <td>Chauffeur</td>
+                                    <td>david.chauffeur@gmail.com</td>
+                                    <td>0615121512</td>
+                                    <td>Marseille</td>
+                                    <td>1999-11-11</td>
+                                    <td>Dave</td>
+                                    <td><img src="assets/img_ecolo/david.jpg" width="40"></td>
+                                    <td>
+                                        <button class="btn btn-warning btn-sm">Modifier</button>
+                                        <button class="btn btn-danger btn-sm">Supprimer</button>
+                                    </td>
+                                </tr>
+                            </tbody>
+
+                            <tbody>
+                                <tr>
+                                    <td>5</td>
+                                    <td>Sophie</td>
+                                    <td>Chauffeur</td>
+                                    <td>sophie.chauffeur@gmail.com</td>
+                                    <td>0623456789</td>
                                     <td>Lyon</td>
-                                    <td>1985-08-22</td>
-                                    <td>PaulM</td>
-                                    <td><img src="photo.jpg" width="40"></td>
+                                    <td>1988-05-25</td>
+                                    <td>Soso</td>
+                                    <td><img src="assets/img_ecolo/sophie.jpg" width="40"></td>
                                     <td>
                                         <button class="btn btn-warning btn-sm">Modifier</button>
                                         <button class="btn btn-danger btn-sm">Supprimer</button>
@@ -304,40 +272,43 @@
                                     <th>Places</th>
                                     <th>Prix</th>
                                     <th>Immatriculation</th>
+
                                     <th>Actions</th>
                                 </tr>
                             </thead>
                             <tbody>
                                 <tr>
                                     <td>1</td>
-                                    <td>Paul Martin</td>
+                                    <td>Sophie</td>
                                     <td>Paris</td>
                                     <td>Lyon</td>
-                                    <td>2025-03-01</td>
-                                    <td>2025-03-01</td>
+                                    <td>2025-03-25</td>
+                                    <td>2025-03-25</td>
                                     <td><span class="badge bg-success">Disponible</span></td>
-                                    <td>3</td>
+                                    <td>2</td>
                                     <td>20€</td>
-                                    <td>AB-123-CD</td>
+                                    <td>eg-020-fr</td>
+
                                     <td>
                                         <button class="btn btn-warning btn-sm">Modifier</button>
                                         <button class="btn btn-danger btn-sm">Supprimer</button>
                                     </td>
+
                                 </tr>
                             </tbody>
 
                             <tbody>
                                 <tr>
-                                    <td>1</td>
-                                    <td>Paul Martin</td>
-                                    <td>Paris</td>
-                                    <td>Lyon</td>
-                                    <td>2025-03-01</td>
-                                    <td>2025-03-01</td>
+                                    <td>2</td>
+                                    <td>David</td>
+                                    <td>Marseille</td>
+                                    <td>Nice</td>
+                                    <td>2025-03-10</td>
+                                    <td>2025-03-10</td>
                                     <td><span class="badge bg-success">Disponible</span></td>
-                                    <td>3</td>
-                                    <td>20€</td>
-                                    <td>AB-123-CD</td>
+                                    <td>2</td>
+                                    <td>15€</td>
+                                    <td>eg-050-fr</td>
                                     <td>
                                         <button class="btn btn-warning btn-sm">Modifier</button>
                                         <button class="btn btn-danger btn-sm">Supprimer</button>
@@ -346,16 +317,16 @@
                             </tbody>
                             <tbody>
                                 <tr>
-                                    <td>1</td>
-                                    <td>Paul Martin</td>
+                                    <td>3</td>
+                                    <td>Marc</td>
                                     <td>Paris</td>
-                                    <td>Lyon</td>
-                                    <td>2025-03-01</td>
-                                    <td>2025-03-01</td>
+                                    <td>Lille</td>
+                                    <td>2025-03-05</td>
+                                    <td>2025-03-05</td>
                                     <td><span class="badge bg-success">En cours</span></td>
-                                    <td>3</td>
-                                    <td>20€</td>
-                                    <td>AB-123-CD</td>
+                                    <td>2</td>
+                                    <td>12€</td>
+                                    <td>eg-035-fr</td>
                                     <td>
                                         <button class="btn btn-warning btn-sm">Modifier</button>
                                         <button class="btn btn-danger btn-sm">Supprimer</button>
@@ -365,16 +336,16 @@
 
                             <tbody>
                                 <tr>
-                                    <td>1</td>
-                                    <td>Paul Martin</td>
-                                    <td>Paris</td>
-                                    <td>Lyon</td>
-                                    <td>2025-03-01</td>
-                                    <td>2025-03-01</td>
+                                    <td>4</td>
+                                    <td>Sophie</td>
+                                    <td>Bordeaux</td>
+                                    <td>Nice</td>
+                                    <td>2025-03-16</td>
+                                    <td>2025-03-16</td>
                                     <td><span class="badge bg-success">Complete</span></td>
-                                    <td>3</td>
-                                    <td>20€</td>
-                                    <td>AB-123-CD</td>
+                                    <td>2</td>
+                                    <td>17€</td>
+                                    <td>eg-045-fr</td>
                                     <td>
                                         <button class="btn btn-warning btn-sm">Modifier</button>
                                         <button class="btn btn-danger btn-sm">Supprimer</button>
@@ -383,112 +354,23 @@
                             </tbody>
                             <tbody>
                                 <tr>
-                                    <td>1</td>
-                                    <td>Paul Martin</td>
-                                    <td>Paris</td>
+                                    <td>5</td>
+                                    <td>David</td>
+                                    <td>Toulouse</td>
                                     <td>Lyon</td>
-                                    <td>2025-03-01</td>
-                                    <td>2025-03-01</td>
+                                    <td>2025-03-13</td>
+                                    <td>2025-03-13</td>
                                     <td><span class="badge bg-success">en cours</span></td>
                                     <td>3</td>
-                                    <td>20€</td>
-                                    <td>AB-123-CD</td>
+                                    <td>25€</td>
+                                    <td>eg-060-fr</td>
                                     <td>
                                         <button class="btn btn-warning btn-sm">Modifier</button>
                                         <button class="btn btn-danger btn-sm">Supprimer</button>
                                     </td>
                                 </tr>
                             </tbody>
-                            <tbody>
-                                <tr>
-                                    <td>1</td>
-                                    <td>Paul Martin</td>
-                                    <td>Paris</td>
-                                    <td>Lyon</td>
-                                    <td>2025-03-01</td>
-                                    <td>2025-03-01</td>
-                                    <td><span class="badge bg-success">Disponible</span></td>
-                                    <td>3</td>
-                                    <td>20€</td>
-                                    <td>AB-123-CD</td>
-                                    <td>
-                                        <button class="btn btn-warning btn-sm">Modifier</button>
-                                        <button class="btn btn-danger btn-sm">Supprimer</button>
-                                    </td>
-                                </tr>
-                            </tbody>
-                            <tbody>
-                                <tr>
-                                    <td>1</td>
-                                    <td>Paul Martin</td>
-                                    <td>Paris</td>
-                                    <td>Lyon</td>
-                                    <td>2025-03-01</td>
-                                    <td>2025-03-01</td>
-                                    <td><span class="badge bg-success">En cours</span></td>
-                                    <td>3</td>
-                                    <td>20€</td>
-                                    <td>AB-123-CD</td>
-                                    <td>
-                                        <button class="btn btn-warning btn-sm">Modifier</button>
-                                        <button class="btn btn-danger btn-sm">Supprimer</button>
-                                    </td>
-                                </tr>
-                            </tbody>
-                            <tbody>
-                                <tr>
-                                    <td>1</td>
-                                    <td>Paul Martin</td>
-                                    <td>Paris</td>
-                                    <td>Lyon</td>
-                                    <td>2025-03-01</td>
-                                    <td>2025-03-01</td>
-                                    <td><span class="badge bg-success">Annuler</span></td>
-                                    <td>3</td>
-                                    <td>20€</td>
-                                    <td>AB-123-CD</td>
-                                    <td>
-                                        <button class="btn btn-warning btn-sm">Modifier</button>
-                                        <button class="btn btn-danger btn-sm">Supprimer</button>
-                                    </td>
-                                </tr>
-                            </tbody>
-                            <tbody>
-                                <tr>
-                                    <td>1</td>
-                                    <td>Paul Martin</td>
-                                    <td>Paris</td>
-                                    <td>Lyon</td>
-                                    <td>2025-03-01</td>
-                                    <td>2025-03-01</td>
-                                    <td><span class="badge bg-success">Disponible</span></td>
-                                    <td>3</td>
-                                    <td>20€</td>
-                                    <td>AB-123-CD</td>
-                                    <td>
-                                        <button class="btn btn-warning btn-sm">Modifier</button>
-                                        <button class="btn btn-danger btn-sm">Supprimer</button>
-                                    </td>
-                                </tr>
-                            </tbody>
-                            <tbody>
-                                <tr>
-                                    <td>1</td>
-                                    <td>Paul Martin</td>
-                                    <td>Paris</td>
-                                    <td>Lyon</td>
-                                    <td>2025-03-01</td>
-                                    <td>2025-03-01</td>
-                                    <td><span class="badge bg-success">En cours</span></td>
-                                    <td>3</td>
-                                    <td>20€</td>
-                                    <td>AB-123-CD</td>
-                                    <td>
-                                        <button class="btn btn-warning btn-sm">Modifier</button>
-                                        <button class="btn btn-danger btn-sm">Supprimer</button>
-                                    </td>
-                                </tr>
-                            </tbody>
+
 
                         </table>
 
