@@ -1,7 +1,7 @@
 services:
   db:
     image: mysql:8.0
-    container_name: ecoride_db
+    container_name: localhost
     environment:
       MYSQL_ROOT_PASSWORD: yes
       MYSQL_DATABASE: covoiturage_bd
@@ -31,7 +31,7 @@ services:
     depends_on:
       - db
     environment:
-      DB_HOST: ecoride_db
+      DB_HOST: localhost
       DB_NAME: covoiturage_bd
       DB_USER: root
       DB_PASSWORD: 'yes'

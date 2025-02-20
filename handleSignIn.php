@@ -2,7 +2,7 @@
 session_start();
 
 // Database connection
-$host = 'ecoride_db';
+$host = 'localhost';
 $dbname = 'covoiturage_bd';
 $username = 'root';
 $password = 'yes';
@@ -63,4 +63,3 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     }
     exit();
 }
-?>

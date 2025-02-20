@@ -1,6 +1,6 @@
 <?php
 // Connexion à la base de données
-$host = 'ecoride_db';
+$host = 'localhost';
 $dbname = 'covoiturage_bd';
 $username = 'root';
 $password = 'yes';
