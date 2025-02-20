@@ -85,8 +85,8 @@ http://localhost/EcoRide/public/
 ### Post-déploiement
 
 - Configurer le DNS dans le panel Hostinger
-- Activer SSL via Let's Encrypt
-- Tester l'application : https://votre-domaine.com
+- Activer SSL via DADDY
+- Tester l'application : https://ecoride.space
 
 
 ## 📖 Utilisation
