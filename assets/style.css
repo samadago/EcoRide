@@ -585,3 +585,81 @@ input[type="file"] {
         width: 90%;
     }
 }
+
+/* Global */
+.card {
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Header des sections */
+.card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 30px;
+    background-color: #228B22; /* Vert écolo */
+    color: white;
+    border-radius: 10px 10px 0 0;
+}
+
+/* Espacement du titre et du bouton */
+.card-header h2 {
+    margin-bottom: 0;
+    font-size: 22px;
+}
+
+.card-header .btn {
+    padding: 12px 20px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/* Tableaux */
+.table {
+    margin-top: 15px;
+}
+
+.table th,
+.table td {
+    text-align: center;
+    vertical-align: middle;
+    padding: 12px;
+}
+
+.table th {
+    background-color: #2E8B57; /* Vert foncé */
+    color: white;
+}
+
+/* Boutons Modifier & Supprimer */
+.btn-warning, .btn-danger {
+    margin: 3px;
+}
+
+/* Badges Statut */
+.badge {
+    font-size: 14px;
+    padding: 8px 12px;
+}
+
+/* Espacement des images Chauffeurs */
+.table img {
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    object-fit: cover;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .card-header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .card-header .btn {
+        margin-top: 10px;
+        width: 100%;
+    }
+}
